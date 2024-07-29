@@ -16,6 +16,8 @@
                 <li><a href="appointments.html">Appointments</a></li>
                 <li><a href="resources.html">Resources</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="doctors.html">Doctors</a></li>
+                
             </ul>
         </nav>
     </header>
@@ -26,6 +28,46 @@
             <h2>Our Facilities</h2>
             <img src="images/hospital.png" alt="Hospital Building">
             <p>State-of-the-art medical facilities to provide the best care for our patients.</p>
+        </section>
+        <section id="doctors">
+            <h2>Our Doctors & Key Persons</h2>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <img src="images/doctor1.jpg" alt="Doctor 1">
+                    <p>Dr. Hemant kumar Jha</p>
+                    <p>General Physician(B.A.M.S, B U)</p>
+                </div>
+                <div class="grid-item">
+                    <img src="images/doctor2.jpg" alt="Doctor 2">
+                    <p>Dr. Sishir Kumar Jha</p>
+                    <p>Neurologist</p>
+                </div>
+                <div class="grid-item">
+                    <img src="images/doctor3.jpg" alt="Doctor 3">
+                    <p>Dr. Alice Johnson</p>
+                    <p>Pediatrician</p>
+                </div>
+                <div class="grid-item">
+                    <img src="images/doctor4.jpg" alt="Doctor 4">
+                    <p>Dr. Robert Brown</p>
+                    <p>Orthopedic Surgeon</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact-us">
+            <h2>Contact Us</h2>
+            <p>We'd love to hear from you. Please reach out with any questions or concerns.</p>
+            <form action="https://formspree.io/f/manwowgb" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
         </section>
     </main>
     <footer>
