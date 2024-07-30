@@ -1,0 +1,39 @@
+/* General dark theme styles */
+body {
+    background-color: #121212;
+    color: #070707;
+}
+
+
+header, footer {
+    background-color: #1f1f1f;
+}
+
+a {
+    color: #bb86fc;
+}
+
+nav, .container, .card {
+    background-color: #1e1e1e;
+}
+
+button {
+    background-color: #333;
+    border: 1px solid #444;
+}
+
+p {
+    color: #ffffff; /* Set paragraph text color to white */
+}
+
+
+button:hover {
+    background-color: #555;
+}
+
+input, textarea {
+    background-color: #f7f4f4;
+    border: 1px solid #444;
+}
+
+/* Additional styles for other elements as needed */
