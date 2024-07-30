@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #4682B4;
     padding: 1em 0;
     text-align: center;
 }
@@ -65,7 +65,7 @@ form input, form textarea, form select, form button {
 }
 
 form button {
-    background-color: #4CAF50;
+    background-color: #4682B4;
     color: white;
     border: none;
 }
@@ -75,7 +75,7 @@ section {
 }
 
 h1, h2 {
-    color: #4CAF50;
+    color: #4682B4;
 }
 
 /* Doctors and Key Persons section */
@@ -197,7 +197,7 @@ header nav ul li a {
 
 header nav ul li a:hover,
 header nav ul li a:focus {
-    background-color: #45a049; /* Background color on hover */
+    background-color: #365f91; /* Background color on hover */
     color: white; /* Text color on hover */
     border-radius: 5px; /* Optional: rounded corners on hover */
 }
@@ -306,12 +306,12 @@ header nav ul li a:hover::after {
     text-decoration: none;
     font-size: 1em;
     color: white;
-    background-color: #4CAF50; /* Green color for the button */
+    background-color: #4682B4; /* Green color for the button */
     transition: background-color 0.3s ease;
 }
 
 .btn:hover {
-    background-color: #45a049; /* Darker green when hovered */
+    background-color: #4682B4; /* Darker green when hovered */
 }
 
 /* Container for the buttons */
