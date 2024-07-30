@@ -294,3 +294,41 @@ header nav ul li a:hover::after {
         animation-duration: 20s;
     }
 }
+
+/* Button styles */
+.btn {
+    display: inline-block;
+    padding: 0.75em 1.5em;
+    margin: 0.5em;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+    background-color: #4CAF50; /* Green color for the button */
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #45a049; /* Darker green when hovered */
+}
+
+/* Container for the buttons */
+.cta-buttons {
+    text-align: center;
+    margin-top: 2em;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .cta-buttons {
+        margin-top: 1em;
+    }
+
+    .btn {
+        display: block;
+        width: 100%;
+        margin: 0.5em 0;
+    }
+}
