@@ -392,3 +392,128 @@ header nav ul li a:hover::after {
         max-width: 80%; /* Adjust size for smaller screens */
     }
 }
+
+/* Footer container styling */
+footer {
+    background-color: #333; /* Dark background color for the footer */
+    color: #fff; /* White text color */
+    padding: 2em 1em; /* Add padding */
+    text-align: center; /* Center align the text */
+    position: relative; /* Position relative for proper alignment */
+    bottom: 0;
+    width: 100%;
+}
+
+/* Footer container */
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Footer information styling */
+.footer-info {
+    margin-bottom: 1em;
+}
+
+/* Footer logo styling */
+.footer-logo img {
+    max-width: 150px; /* Adjust logo size */
+    height: auto;
+}
+
+/* Footer links styling */
+.footer-info a {
+    color: #fff; /* White color for links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.footer-info a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .footer-info {
+        font-size: 0.9em; /* Slightly smaller text on mobile */
+    }
+
+    .footer-logo img {
+        max-width: 120px; /* Adjust logo size for smaller screens */
+    }
+}
+
+/* General styles for the contact page */
+#contact-us {
+    padding: 2em;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+#contact-us h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+#contact-us address p {
+    margin: 0.5em 0;
+    font-size: 1em;
+}
+
+#contact-us address a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#contact-us address a:hover {
+    text-decoration: underline;
+}
+
+/* Follow Us section styling */
+#follow-us {
+    margin-top: 2em;
+}
+
+#follow-us h2 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+#follow-us ul {
+    list-style: none;
+    padding: 0;
+}
+
+#follow-us li {
+    display: inline;
+    margin-right: 1em;
+}
+
+#follow-us a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#follow-us a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    #contact-us {
+        padding: 1em;
+    }
+
+    #contact-us h1 {
+        font-size: 1.5em;
+    }
+
+    #follow-us h2 {
+        font-size: 1.2em;
+    }
+
+    #follow-us li {
+        display: block;
+        margin-bottom: 0.5em;
+    }
+}
