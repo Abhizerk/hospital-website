@@ -332,3 +332,56 @@ header nav ul li a:hover::after {
         margin: 0.5em 0;
     }
 }
+
+/* Showcase section styles */
+
+.building-image {
+    display: block;
+    max-width: 100%; /* Make sure the image is responsive */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+/* Example styles for h2 to ensure it aligns with other content */
+#showcase h2 {
+    margin-bottom: 1em;
+    font-size: 1.5em;
+}
+
+/* Button styles */
+.btn {
+    display: inline-block;
+    padding: 0.75em 1.5em;
+    margin: 0.5em;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+    background-color: #007BFF; /* New blue color */
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Darker blue when hovered */
+}
+
+/* Container for the buttons */
+.cta-buttons {
+    text-align: center;
+    margin-top: 2em;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .btn {
+        display: block;
+        width: 100%;
+        margin: 0.5em 0;
+    }
+
+    .showcase-image {
+        max-width: 80%; /* Adjust size for smaller screens */
+    }
+}
